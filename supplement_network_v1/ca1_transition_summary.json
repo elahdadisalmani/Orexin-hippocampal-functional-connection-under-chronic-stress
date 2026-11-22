@@ -1,0 +1,9 @@
+{
+ "I_O_at_60pct_theta": 0.309,
+ "I_O_at_50pct_theta": 0.282,
+ "I_O_at_20pct_theta": 0.22,
+ "transition_width_I_O_60_to_20pct": 0.088,
+ "max_hysteresis_gap_fraction_of_control": 0.114,
+ "theta_power_control": 1.255,
+ "A_only_theta_power_at_A_0.3_over_control": 1.247
+}
