@@ -1,0 +1,608 @@
+{
+ "3.1_upstream": {
+  "values_by_day": {
+   "10": {
+    "P": 1.0,
+    "f_Hz": 2.0,
+    "R": 1.0,
+    "I_O": 1.0
+   },
+   "20": {
+    "P": 1.0,
+    "f_Hz": 2.0,
+    "R": 1.0,
+    "I_O": 1.0
+   },
+   "30": {
+    "P": 0.861,
+    "f_Hz": 2.25,
+    "R": 0.91,
+    "I_O": 0.97
+   },
+   "45": {
+    "P": 0.687,
+    "f_Hz": 2.68,
+    "R": 0.621,
+    "I_O": 0.922
+   },
+   "55": {
+    "P": 0.592,
+    "f_Hz": 2.95,
+    "R": 0.48,
+    "I_O": 0.874
+   },
+   "70": {
+    "P": 0.442,
+    "f_Hz": 3.4,
+    "R": 0.356,
+    "I_O": 0.751
+   },
+   "105": {
+    "P": 0.128,
+    "f_Hz": 4.65,
+    "R": 0.207,
+    "I_O": 0.296
+   },
+   "120": {
+    "P": 0.067,
+    "f_Hz": 4.96,
+    "R": 0.187,
+    "I_O": 0.165
+   }
+  },
+  "day_R_below_Rc": 58.0,
+  "I_O_range_days_20_45": [
+   0.922,
+   1.0
+  ],
+  "f_O_max": {
+   "value": 4.96,
+   "day": 120.0
+  },
+  "day_I_O_below_0p5": 89.0,
+  "day_I_O_below_0p25": 109.75,
+  "critical_stop_day": 49.1,
+  "critical_exposure_days": 29.1,
+  "withdrawal": {
+   "30": {
+    "I_O_at_stop": 0.97,
+    "R_at_stop": 0.91,
+    "R_min_after_stop": 0.706,
+    "I_O_at_end": 0.98,
+    "days_to_I_O_below_0.5": null
+   },
+   "40": {
+    "I_O_at_stop": 0.942,
+    "R_at_stop": 0.714,
+    "R_min_after_stop": 0.543,
+    "I_O_at_end": 0.948,
+    "days_to_I_O_below_0.5": null
+   },
+   "50": {
+    "I_O_at_stop": 0.9,
+    "R_at_stop": 0.543,
+    "R_min_after_stop": 0.176,
+    "I_O_at_end": 0.094,
+    "days_to_I_O_below_0.5": 133.0
+   },
+   "60": {
+    "I_O_at_stop": 0.844,
+    "R_at_stop": 0.431,
+    "R_min_after_stop": 0.168,
+    "I_O_at_end": 0.013,
+    "days_to_I_O_below_0.5": 58.5
+   },
+   "80": {
+    "I_O_at_stop": 0.626,
+    "R_at_stop": 0.293,
+    "R_min_after_stop": 0.167,
+    "I_O_at_end": 0.006,
+    "days_to_I_O_below_0.5": 16.0
+   }
+  },
+  "sensitivity": {
+   "reference": {
+    "day_R_below_Rc": 58.0,
+    "I_O_45": 0.922,
+    "I_O_105": 0.296,
+    "I_O_120": 0.165,
+    "critical_stop_day": 49.1
+   },
+   "variations": {
+    "epsx0.6": {
+     "day_R_below_Rc": 58.0,
+     "I_O_45": 0.922,
+     "I_O_105": 0.397,
+     "I_O_120": 0.267,
+     "critical_stop_day": 49.1
+    },
+    "epsx1.4": {
+     "day_R_below_Rc": 58.0,
+     "I_O_45": 0.922,
+     "I_O_105": 0.213,
+     "I_O_120": 0.097,
+     "critical_stop_day": 49.1
+    },
+    "kappax0.8": {
+     "day_R_below_Rc": 64.25,
+     "I_O_45": 0.927,
+     "I_O_105": 0.385,
+     "I_O_120": 0.231,
+     "critical_stop_day": 55.5
+    },
+    "kappax1.2": {
+     "day_R_below_Rc": 53.75,
+     "I_O_45": 0.918,
+     "I_O_105": 0.235,
+     "I_O_120": 0.124,
+     "critical_stop_day": 44.7
+    },
+    "betax0.75": {
+     "day_R_below_Rc": 60.5,
+     "I_O_45": 0.907,
+     "I_O_105": 0.314,
+     "I_O_120": 0.183,
+     "critical_stop_day": 51.4
+    },
+    "betax1.25": {
+     "day_R_below_Rc": 56.5,
+     "I_O_45": 0.933,
+     "I_O_105": 0.286,
+     "I_O_120": 0.155,
+     "critical_stop_day": 47.8
+    },
+    "alphax0.8": {
+     "day_R_below_Rc": 65.25,
+     "I_O_45": 0.943,
+     "I_O_105": 0.454,
+     "I_O_120": 0.283,
+     "critical_stop_day": 56.4
+    },
+    "alphax1.2": {
+     "day_R_below_Rc": 53.25,
+     "I_O_45": 0.899,
+     "I_O_105": 0.197,
+     "I_O_120": 0.101,
+     "critical_stop_day": 44.3
+    }
+   },
+   "eps0": {
+    "day_R_below_Rc": 58.0,
+    "I_O_45": 0.922,
+    "I_O_105": 0.564,
+    "I_O_120": 0.477,
+    "critical_stop_day": null
+   }
+  }
+ },
+ "3.2_epochs": {
+  "Control (day 10)": {
+   "day": 10.0,
+   "I_O": 1.0,
+   "A": 1.0,
+   "theta_abs": [
+    1.1474,
+    0.0142
+   ],
+   "theta_rel": [
+    0.4629,
+    0.004
+   ],
+   "peak_freq": [
+    6.5,
+    0.0
+   ],
+   "peak_ratio": [
+    326.9522,
+    31.5882
+   ],
+   "rate_E": [
+    1.9289,
+    0.0363
+   ],
+   "rate_I": [
+    8.2171,
+    0.0669
+   ]
+  },
+  "Compensation (day 45)": {
+   "day": 45.0,
+   "I_O": 0.9225,
+   "A": 0.7788,
+   "theta_abs": [
+    0.8335,
+    0.0107
+   ],
+   "theta_rel": [
+    0.5438,
+    0.0027
+   ],
+   "peak_freq": [
+    6.5,
+    0.0
+   ],
+   "peak_ratio": [
+    432.9728,
+    89.1901
+   ],
+   "rate_E": [
+    1.1125,
+    0.0248
+   ],
+   "rate_I": [
+    7.0633,
+    0.0421
+   ]
+  },
+  "Late (day 105)": {
+   "day": 105.0,
+   "I_O": 0.2965,
+   "A": 0.4274,
+   "theta_abs": [
+    0.0,
+    0.0
+   ],
+   "theta_rel": [
+    0.1065,
+    0.014
+   ],
+   "peak_freq": [
+    10.8,
+    3.5299
+   ],
+   "peak_ratio": [
+    2.2115,
+    0.179
+   ],
+   "rate_E": [
+    0.0,
+    0.0
+   ],
+   "rate_I": [
+    0.0,
+    0.0
+   ]
+  },
+  "Failure (day 120)": {
+   "day": 120.0,
+   "I_O": 0.1651,
+   "A": 0.3679,
+   "theta_abs": [
+    0.0,
+    0.0
+   ],
+   "theta_rel": [
+    0.1053,
+    0.0134
+   ],
+   "peak_freq": [
+    11.5,
+    3.1305
+   ],
+   "peak_ratio": [
+    2.1466,
+    0.1857
+   ],
+   "rate_E": [
+    0.0,
+    0.0
+   ],
+   "rate_I": [
+    0.0,
+    0.0
+   ]
+  },
+  "derived": {
+   "theta_change_day45_pct": -27.353,
+   "rateE_change_day45_pct": -42.3241
+  }
+ },
+ "3.3_bcm": {
+  "Control (day 10)": {
+   "I_O": 1.0,
+   "mean_rate_E_Hz": 1.94,
+   "theta_M_Hz": 2.11,
+   "theta_M_alt_sign_Hz": 2.11,
+   "fraction_cells_above_theta_M": 0.394,
+   "mean_phi_Hz2": 0.35
+  },
+  "Compensation (day 45)": {
+   "I_O": 0.922,
+   "mean_rate_E_Hz": 1.1,
+   "theta_M_Hz": 0.9,
+   "theta_M_alt_sign_Hz": 0.65,
+   "fraction_cells_above_theta_M": 0.589,
+   "mean_phi_Hz2": 0.63
+  },
+  "Late (day 105)": {
+   "I_O": 0.296,
+   "mean_rate_E_Hz": 0.0,
+   "theta_M_Hz": 0.0,
+   "theta_M_alt_sign_Hz": 0.0,
+   "fraction_cells_above_theta_M": 0.0,
+   "mean_phi_Hz2": 0.0
+  },
+  "Failure (day 120)": {
+   "I_O": 0.165,
+   "mean_rate_E_Hz": 0.0,
+   "theta_M_Hz": 0.0,
+   "theta_M_alt_sign_Hz": 0.0,
+   "fraction_cells_above_theta_M": 0.0,
+   "mean_phi_Hz2": 0.0
+  },
+  "_theta0_Hz": 2.11,
+  "derived": {
+   "f2_ratio_day45": 0.3619,
+   "f_target_sq_ratio_day45": 0.8509
+  }
+ },
+ "3.4_ablation": {
+  "summary": {
+   "full": {
+    "day_theta_below_50pct": 74.7,
+    "theta_power_day_100": 0.0,
+    "theta_power_day_110": 0.0,
+    "theta_power_day_120": 0.0
+   },
+   "orexin_only": {
+    "day_theta_below_50pct": 83.0,
+    "theta_power_day_100": 0.0,
+    "theta_power_day_110": 0.0,
+    "theta_power_day_120": 0.0
+   },
+   "atrophy_only": {
+    "day_theta_below_50pct": 112.0,
+    "theta_power_day_100": 0.628,
+    "theta_power_day_110": 0.601,
+    "theta_power_day_120": 0.464
+   },
+   "recovery_continuous": {
+    "theta_day_250": 0.0,
+    "day_theta_below_50pct": 74.2
+   },
+   "recovery_60": {
+    "theta_day_250": 0.0,
+    "day_theta_below_50pct": 101.1
+   },
+   "recovery_50": {
+    "theta_day_250": 0.0,
+    "day_theta_below_50pct": 170.3
+   },
+   "recovery_40": {
+    "theta_day_250": 0.892,
+    "day_theta_below_50pct": null
+   }
+  },
+  "theta_by_day": {
+   "full": {
+    "10": 1.1379,
+    "20": 1.1379,
+    "30": 0.9902,
+    "40": 0.8671,
+    "50": 0.7851,
+    "60": 0.7047,
+    "70": 0.6251,
+    "80": 0.5153,
+    "90": 0.0881,
+    "100": 0.0,
+    "110": 0.0,
+    "120": 0.0
+   },
+   "orexin_only": {
+    "10": 1.1379,
+    "20": 1.1379,
+    "30": 1.122,
+    "40": 1.0872,
+    "50": 1.0695,
+    "60": 1.0145,
+    "70": 0.9336,
+    "80": 0.7505,
+    "90": 0.1514,
+    "100": 0.0,
+    "110": 0.0,
+    "120": 0.0
+   },
+   "atrophy_only": {
+    "10": 1.1379,
+    "20": 1.1379,
+    "30": 1.0074,
+    "40": 0.9162,
+    "50": 0.8305,
+    "60": 0.7749,
+    "70": 0.7348,
+    "80": 0.6931,
+    "90": 0.6445,
+    "100": 0.6279,
+    "110": 0.6008,
+    "120": 0.4643
+   },
+   "atrophy_only_all_synapses": {
+    "10": 1.1379,
+    "20": 1.1379,
+    "30": 1.1757,
+    "40": 1.2101,
+    "50": 1.2403,
+    "60": 1.273,
+    "70": 1.3188,
+    "80": 1.3525,
+    "90": 1.3969,
+    "100": 1.4451,
+    "110": 1.4916,
+    "120": 1.5465
+   },
+   "full_all_synapses": {
+    "10": 1.1379,
+    "20": 1.1379,
+    "30": 1.1613,
+    "40": 1.1687,
+    "50": 1.1575,
+    "60": 1.1294,
+    "70": 1.0417,
+    "80": 0.8529,
+    "90": 0.1875,
+    "100": 0.0,
+    "110": 0.0,
+    "120": 0.0
+   }
+  }
+ },
+ "3.5_transition": {
+  "summary": {
+   "I_O_at_60pct_theta": 0.59,
+   "I_O_at_50pct_theta": 0.557,
+   "I_O_at_20pct_theta": 0.507,
+   "transition_width_I_O_60_to_20pct": 0.084,
+   "max_hysteresis_gap_fraction_of_control": 0.079,
+   "theta_power_control": 1.147,
+   "A_only_theta_power_at_A_0.3_over_control": 0.287
+  },
+  "sweep": {
+   "1.00": {
+    "theta": 1.1469,
+    "peak_freq": 6.5,
+    "rate_E": 1.9335,
+    "peak_ratio": 282.3924
+   },
+   "0.90": {
+    "theta": 1.0704,
+    "peak_freq": 6.0,
+    "rate_E": 1.8678,
+    "peak_ratio": 305.6211
+   },
+   "0.80": {
+    "theta": 0.983,
+    "peak_freq": 5.5,
+    "rate_E": 1.7221,
+    "peak_ratio": 140.3789
+   },
+   "0.70": {
+    "theta": 0.8732,
+    "peak_freq": 5.3,
+    "rate_E": 1.5446,
+    "peak_ratio": 71.3413
+   },
+   "0.65": {
+    "theta": 0.8027,
+    "peak_freq": 5.0,
+    "rate_E": 1.4326,
+    "peak_ratio": 69.2879
+   },
+   "0.62": {
+    "theta": 0.7516,
+    "peak_freq": 4.9,
+    "rate_E": 1.3716,
+    "peak_ratio": 46.8865
+   },
+   "0.60": {
+    "theta": 0.7179,
+    "peak_freq": 4.5,
+    "rate_E": 1.3259,
+    "peak_ratio": 41.1483
+   },
+   "0.58": {
+    "theta": 0.6579,
+    "peak_freq": 4.5,
+    "rate_E": 1.2055,
+    "peak_ratio": 40.7829
+   },
+   "0.56": {
+    "theta": 0.5935,
+    "peak_freq": 4.2,
+    "rate_E": 1.14,
+    "peak_ratio": 26.7561
+   },
+   "0.54": {
+    "theta": 0.4556,
+    "peak_freq": 4.0,
+    "rate_E": 1.0322,
+    "peak_ratio": 19.6578
+   },
+   "0.52": {
+    "theta": 0.3032,
+    "peak_freq": 3.7,
+    "rate_E": 0.7972,
+    "peak_ratio": 17.0032
+   },
+   "0.50": {
+    "theta": 0.1937,
+    "peak_freq": 3.1,
+    "rate_E": 0.6062,
+    "peak_ratio": 13.8632
+   },
+   "0.47": {
+    "theta": 0.0959,
+    "peak_freq": 2.5,
+    "rate_E": 0.2711,
+    "peak_ratio": 10.3014
+   },
+   "0.45": {
+    "theta": 0.0562,
+    "peak_freq": 2.3,
+    "rate_E": 0.1627,
+    "peak_ratio": 8.2272
+   },
+   "0.42": {
+    "theta": 0.0093,
+    "peak_freq": 7.3,
+    "rate_E": 0.0253,
+    "peak_ratio": 4.8957
+   },
+   "0.40": {
+    "theta": 0.0,
+    "peak_freq": 8.6,
+    "rate_E": 0.0,
+    "peak_ratio": 3.0156
+   },
+   "0.35": {
+    "theta": 0.0,
+    "peak_freq": 10.4,
+    "rate_E": 0.0,
+    "peak_ratio": 2.8347
+   },
+   "0.30": {
+    "theta": 0.0,
+    "peak_freq": 10.4,
+    "rate_E": 0.0,
+    "peak_ratio": 2.7985
+   },
+   "0.20": {
+    "theta": 0.0,
+    "peak_freq": 10.9,
+    "rate_E": 0.0,
+    "peak_ratio": 2.7133
+   },
+   "0.05": {
+    "theta": 0.0,
+    "peak_freq": 10.9,
+    "rate_E": 0.0,
+    "peak_ratio": 2.6432
+   }
+  },
+  "contour_50pct_I_O_by_A": {
+   "A=1.00": 0.5713,
+   "A=0.85": 0.5854,
+   "A=0.70": 0.6325,
+   "A=0.55": 0.7023,
+   "A=0.40": 0.9783,
+   "A=0.30": null
+  },
+  "I_O_at_50pct_by_eta_E": {
+   "eta_E=0.25": 0.1155,
+   "eta_E=0.375": 0.4189,
+   "eta_E=0.5": 0.5725,
+   "eta_E=0.75": 0.7127,
+   "eta_E=1.0": 0.7791,
+   "eta_E=1.5": 0.8653
+  },
+  "eta_I": {
+   "max_abs_difference_mV2_per_Hz": {
+    "0.25": 0.017,
+    "0.5": 0.035
+   },
+   "max_relative_difference_vs_control_power": {
+    "0.25": 0.015,
+    "0.5": 0.031
+   }
+  }
+ }
+}

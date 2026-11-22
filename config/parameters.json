@@ -1,0 +1,14 @@
+{
+ "_comment": "Upstream (lateral hypothalamus) orexin model. Time unit: day. All values are fitted in this work unless a reference is added.",
+ "alpha": 0.015,
+ "beta": 2.0,
+ "gamma": 0.1,
+ "tau": 15.0,
+ "kappa": 0.1,
+ "eps": 0.05,
+ "Rc": 0.45,
+ "f0": 2.0,
+ "t_on": 20.0,
+ "T": 120.0,
+ "sigma_A": 0.01
+}

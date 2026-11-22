@@ -1,0 +1,21 @@
+{
+ "N_E": 800,
+ "N_I": 200,
+ "p_conn": 0.2,
+ "w_EE": 0.6,
+ "w_EI": 0.62,
+ "w_IE": 7.22,
+ "w_II": 1.01,
+ "tau_ampa": 5.0,
+ "tau_gaba": 33.5,
+ "I_base_E": 4.4,
+ "I_base_I": 1.35,
+ "eta_E": 0.5,
+ "eta_I": 0.25,
+ "sigma_noise": 0.15,
+ "noise_ms": 1.0,
+ "heterogeneity": 0.1,
+ "dt": 0.1,
+ "A_target": "all",
+ "_comment": "First network (superseded). Selected by control-state criteria only; strongly synchronous population bursts (76 % participation); A scaled all synapses. Kept for the robustness analysis in the Supplement; its results are in supplement_network_v1/."
+}
