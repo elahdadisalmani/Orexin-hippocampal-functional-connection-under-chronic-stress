@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Orexin neuron population and activity in chronic stress: Computational insights into hippocampal dysregulation (code)"
+authors:
+  - family-names: "Elahdadi Salmani"
+    given-names: "Mahmoud"
+    affiliation: "School of Biology, Damghan University, Damghan, Iran"
+  - family-names: "Nahtani"
+    given-names: "Mojde"
+    affiliation: "Department of Electrical and Computer Engineering, Semnan University, Semnan, Iran"
+version: "1.0.0"
+date-released: "[YYYY-MM-DD]"
+doi: "[DOI to be assigned, e.g. by Zenodo]"
+license: MIT
+repository-code: "[repository URL]"
