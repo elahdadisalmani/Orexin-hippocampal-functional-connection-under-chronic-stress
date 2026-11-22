@@ -1,0 +1,35 @@
+{
+ "Control (day 10)": {
+  "I_O": 1.0,
+  "mean_rate_E_Hz": 1.94,
+  "theta_M_Hz": 2.11,
+  "theta_M_alt_sign_Hz": 2.11,
+  "fraction_cells_above_theta_M": 0.394,
+  "mean_phi_Hz2": 0.35
+ },
+ "Compensation (day 45)": {
+  "I_O": 0.922,
+  "mean_rate_E_Hz": 1.1,
+  "theta_M_Hz": 0.9,
+  "theta_M_alt_sign_Hz": 0.65,
+  "fraction_cells_above_theta_M": 0.589,
+  "mean_phi_Hz2": 0.63
+ },
+ "Late (day 105)": {
+  "I_O": 0.296,
+  "mean_rate_E_Hz": 0.0,
+  "theta_M_Hz": 0.0,
+  "theta_M_alt_sign_Hz": 0.0,
+  "fraction_cells_above_theta_M": 0.0,
+  "mean_phi_Hz2": 0.0
+ },
+ "Failure (day 120)": {
+  "I_O": 0.165,
+  "mean_rate_E_Hz": 0.0,
+  "theta_M_Hz": 0.0,
+  "theta_M_alt_sign_Hz": 0.0,
+  "fraction_cells_above_theta_M": 0.0,
+  "mean_phi_Hz2": 0.0
+ },
+ "_theta0_Hz": 2.11
+}

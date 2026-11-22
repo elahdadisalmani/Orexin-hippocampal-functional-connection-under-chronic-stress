@@ -1,0 +1,114 @@
+{
+ "parameters": {
+  "alpha": 0.015,
+  "beta": 2.0,
+  "gamma": 0.1,
+  "tau": 15.0,
+  "kappa": 0.1,
+  "eps": 0.05,
+  "Rc": 0.45,
+  "f0": 2.0,
+  "t_on": 20.0,
+  "T": 120.0,
+  "sigma_A": 0.01
+ },
+ "day_R_below_Rc": 58.0,
+ "I_O_range_days_20_45": [
+  0.922,
+  1.0
+ ],
+ "f_O_max_Hz": {
+  "value": 4.96,
+  "day": 120.0
+ },
+ "I_O_below_0.5_day": 89.0,
+ "I_O_below_0.25_day": 109.75,
+ "critical_stop_day": 49.1,
+ "values": {
+  "10": {
+   "P": 1.0,
+   "f_Hz": 2.0,
+   "R": 1.0,
+   "I_O": 1.0
+  },
+  "20": {
+   "P": 1.0,
+   "f_Hz": 2.0,
+   "R": 1.0,
+   "I_O": 1.0
+  },
+  "30": {
+   "P": 0.861,
+   "f_Hz": 2.25,
+   "R": 0.91,
+   "I_O": 0.97
+  },
+  "45": {
+   "P": 0.687,
+   "f_Hz": 2.68,
+   "R": 0.621,
+   "I_O": 0.922
+  },
+  "55": {
+   "P": 0.592,
+   "f_Hz": 2.95,
+   "R": 0.48,
+   "I_O": 0.874
+  },
+  "70": {
+   "P": 0.442,
+   "f_Hz": 3.4,
+   "R": 0.356,
+   "I_O": 0.751
+  },
+  "105": {
+   "P": 0.128,
+   "f_Hz": 4.65,
+   "R": 0.207,
+   "I_O": 0.296
+  },
+  "120": {
+   "P": 0.067,
+   "f_Hz": 4.96,
+   "R": 0.187,
+   "I_O": 0.165
+  }
+ },
+ "recovery": {
+  "30": {
+   "I_O_at_stop": 0.97,
+   "R_at_stop": 0.91,
+   "R_min_after_stop": 0.706,
+   "I_O_at_end": 0.98,
+   "days_to_I_O_below_0.5": null
+  },
+  "40": {
+   "I_O_at_stop": 0.942,
+   "R_at_stop": 0.714,
+   "R_min_after_stop": 0.543,
+   "I_O_at_end": 0.948,
+   "days_to_I_O_below_0.5": null
+  },
+  "50": {
+   "I_O_at_stop": 0.9,
+   "R_at_stop": 0.543,
+   "R_min_after_stop": 0.176,
+   "I_O_at_end": 0.094,
+   "days_to_I_O_below_0.5": 133.0
+  },
+  "60": {
+   "I_O_at_stop": 0.844,
+   "R_at_stop": 0.431,
+   "R_min_after_stop": 0.168,
+   "I_O_at_end": 0.013,
+   "days_to_I_O_below_0.5": 58.5
+  },
+  "80": {
+   "I_O_at_stop": 0.626,
+   "R_at_stop": 0.293,
+   "R_min_after_stop": 0.167,
+   "I_O_at_end": 0.006,
+   "days_to_I_O_below_0.5": 16.0
+  }
+ }
+}

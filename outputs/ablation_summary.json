@@ -1,0 +1,36 @@
+{
+ "full": {
+  "day_theta_below_50pct": 74.7,
+  "theta_power_day_100": 0.0,
+  "theta_power_day_110": 0.0,
+  "theta_power_day_120": 0.0
+ },
+ "orexin_only": {
+  "day_theta_below_50pct": 83.0,
+  "theta_power_day_100": 0.0,
+  "theta_power_day_110": 0.0,
+  "theta_power_day_120": 0.0
+ },
+ "atrophy_only": {
+  "day_theta_below_50pct": 112.0,
+  "theta_power_day_100": 0.628,
+  "theta_power_day_110": 0.601,
+  "theta_power_day_120": 0.464
+ },
+ "recovery_continuous": {
+  "theta_day_250": 0.0,
+  "day_theta_below_50pct": 74.2
+ },
+ "recovery_60": {
+  "theta_day_250": 0.0,
+  "day_theta_below_50pct": 101.1
+ },
+ "recovery_50": {
+  "theta_day_250": 0.0,
+  "day_theta_below_50pct": 170.3
+ },
+ "recovery_40": {
+  "theta_day_250": 0.892,
+  "day_theta_below_50pct": null
+ }
+}
